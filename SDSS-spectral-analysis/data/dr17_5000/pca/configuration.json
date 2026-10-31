@@ -1,0 +1,19 @@
+{
+  "source": "data\\dr17_5000\\prepared_baseline\\regression_inputs.npz",
+  "source_sha256": "d6cebe56d2711dd1ea46e5d37d8576ab5f8afe7a7b4505eba01bf7660d4398aa",
+  "sklearn_version": "1.9.1",
+  "fit_split": "train",
+  "training_galaxies": 3359,
+  "validation_galaxies": 720,
+  "flux_features": 1902,
+  "missing_indicators_included": false,
+  "centred": true,
+  "standardized": false,
+  "whiten": false,
+  "svd_solver": "full",
+  "requested_variance_fraction": 0.95,
+  "retained_components": 2,
+  "retained_variance_fraction": 0.9779739598527477,
+  "test_set_used": false,
+  "targets_used": false
+}

@@ -1,0 +1,5 @@
+target,n_estimators,max_features,min_samples_leaf,validation_MAE,training_seconds,incremental_fit_seconds,model_file
+z,400,0.3,1,0.04224929628242362,62.03226489998633,62.03226489998633,z_trees-400_features-0.3_leaf-1.joblib
+cModelMag_g,200,0.3,1,0.49956288333333376,37.63471099996241,37.63471099996241,cModelMag_g_trees-200_features-0.3_leaf-1.joblib
+cModelMag_r,200,1.0,1,0.31420942881944436,102.2634499000269,52.67265840002801,cModelMag_r_trees-200_features-1_leaf-1.joblib
+cModelMag_i,400,1.0,1,0.2970894037500002,221.39995800005272,112.51118079997832,cModelMag_i_trees-400_features-1_leaf-1.joblib

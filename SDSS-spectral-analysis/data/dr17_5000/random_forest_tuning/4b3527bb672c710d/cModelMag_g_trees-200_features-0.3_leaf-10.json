@@ -1,0 +1,10 @@
+{
+  "target": "cModelMag_g",
+  "n_estimators": 200,
+  "max_features": 0.3,
+  "min_samples_leaf": 10,
+  "validation_MAE": 0.5033074308754616,
+  "training_seconds": 22.073219700017944,
+  "incremental_fit_seconds": 22.073219700017944,
+  "model_file": "cModelMag_g_trees-200_features-0.3_leaf-10.joblib"
+}

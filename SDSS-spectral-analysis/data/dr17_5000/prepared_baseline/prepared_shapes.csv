@@ -1,0 +1,4 @@
+split,galaxies,flux_features,missing_indicators,total_input_features,targets,remaining_missing_values
+train,3359,1902,815,2717,4,0
+validation,720,1902,815,2717,4,0
+test,720,1902,815,2717,4,0

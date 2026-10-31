@@ -1,0 +1,15 @@
+{
+  "method": "forest",
+  "case": "PCA2_retuned",
+  "target": "cModelMag_r",
+  "input_features": 2,
+  "training_galaxies": 3359,
+  "validation_galaxies": 720,
+  "fit_seconds": 0.22125170001527295,
+  "predict_seconds": 0.03720739996060729,
+  "validation_MAE": 0.34971625701890496,
+  "prediction_repetitions": 3,
+  "n_estimators": 200,
+  "max_features": 0.5,
+  "min_samples_leaf": 10
+}

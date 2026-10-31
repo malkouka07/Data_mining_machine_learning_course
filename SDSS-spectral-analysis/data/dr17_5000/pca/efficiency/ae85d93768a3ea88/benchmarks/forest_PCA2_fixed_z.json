@@ -1,0 +1,15 @@
+{
+  "method": "forest",
+  "case": "PCA2_fixed",
+  "target": "z",
+  "input_features": 2,
+  "training_galaxies": 3359,
+  "validation_galaxies": 720,
+  "fit_seconds": 0.4955042999936268,
+  "predict_seconds": 0.07890309998765588,
+  "validation_MAE": 0.06011350543680207,
+  "prediction_repetitions": 3,
+  "n_estimators": 400,
+  "max_features": 0.3,
+  "min_samples_leaf": 1
+}

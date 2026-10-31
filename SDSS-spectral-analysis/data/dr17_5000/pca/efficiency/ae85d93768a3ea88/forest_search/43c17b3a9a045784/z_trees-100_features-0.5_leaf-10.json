@@ -1,0 +1,10 @@
+{
+  "target": "z",
+  "n_estimators": 100,
+  "max_features": 0.5,
+  "min_samples_leaf": 10,
+  "validation_MAE": 0.05679983669481269,
+  "training_seconds": 0.10781720001250505,
+  "incremental_fit_seconds": 0.10781720001250505,
+  "model_file": "z_trees-100_features-0.5_leaf-10.joblib"
+}

@@ -1,0 +1,20 @@
+{
+  "data_fingerprint": "43c17b3a9a04578470d68a75791034f6f790b2944ee701f0607dea05301f5213",
+  "sklearn_version": "1.9.1",
+  "random_state": 42,
+  "training_galaxies": 3359,
+  "validation_galaxies": 720,
+  "input_features": 2,
+  "targets": [
+    "z",
+    "cModelMag_g",
+    "cModelMag_r",
+    "cModelMag_i"
+  ],
+  "criterion": "squared_error",
+  "bootstrap": true,
+  "max_samples": null,
+  "max_depth": null,
+  "selection_metric": "validation_MAE",
+  "test_set_used": false
+}

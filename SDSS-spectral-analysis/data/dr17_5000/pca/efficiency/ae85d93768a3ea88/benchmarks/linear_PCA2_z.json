@@ -1,0 +1,12 @@
+{
+  "method": "linear",
+  "case": "PCA2",
+  "target": "z",
+  "input_features": 2,
+  "training_galaxies": 3359,
+  "validation_galaxies": 720,
+  "fit_seconds": 0.0016980000073090196,
+  "predict_seconds": 0.0005453000194393098,
+  "validation_MAE": 0.15442479283498567,
+  "prediction_repetitions": 3
+}

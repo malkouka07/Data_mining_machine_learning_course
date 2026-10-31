@@ -1,0 +1,12 @@
+{
+  "method": "linear",
+  "case": "full",
+  "target": "z",
+  "input_features": 2717,
+  "training_galaxies": 3359,
+  "validation_galaxies": 720,
+  "fit_seconds": 6.703427799977362,
+  "predict_seconds": 0.014030099962837994,
+  "validation_MAE": 0.24181582052294506,
+  "prediction_repetitions": 3
+}

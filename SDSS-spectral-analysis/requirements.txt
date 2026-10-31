@@ -1,0 +1,10 @@
+astroquery==0.4.11
+astropy==8.0.2
+numpy
+pandas
+matplotlib
+requests
+ipykernel
+nbformat
+nbclient
+scikit-learn==1.9.1

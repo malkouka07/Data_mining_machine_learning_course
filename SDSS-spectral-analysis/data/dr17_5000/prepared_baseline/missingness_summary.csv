@@ -1,0 +1,4 @@
+split,galaxies,wavelengths_before,wavelengths_retained,missing_percent_before,missing_percent_after_column_filter,remaining_missing_values
+train,3359,1906,1902,0.34793995989537435,0.20805100411375,13292
+validation,720,1906,1902,0.3463477906027748,0.2050473186119874,2808
+test,720,1906,1902,0.3156698146204967,0.18073080967402735,2475

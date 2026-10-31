@@ -1,0 +1,12 @@
+{
+  "method": "linear",
+  "case": "PCA2",
+  "target": "cModelMag_r",
+  "input_features": 2,
+  "training_galaxies": 3359,
+  "validation_galaxies": 720,
+  "fit_seconds": 0.001723300025332719,
+  "predict_seconds": 0.0005585000035353005,
+  "validation_MAE": 1.0355890143152016,
+  "prediction_repetitions": 3
+}

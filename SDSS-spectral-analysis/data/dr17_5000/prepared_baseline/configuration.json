@@ -1,0 +1,48 @@
+{
+  "data_release": 17,
+  "requested_galaxies": 5000,
+  "available_galaxies": 5000,
+  "retained_galaxies": 4799,
+  "provisional": false,
+  "seed": 42,
+  "galaxy_missing_fraction_exclude_at_or_above": 0.1,
+  "training_column_missing_fraction_exclude_above": 0.5,
+  "nominal_split_fractions": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "target_columns": [
+    "z",
+    "cModelMag_g",
+    "cModelMag_r",
+    "cModelMag_i"
+  ],
+  "excluded_and_flags": [
+    "NOPLUG",
+    "BADTRACE",
+    "BADFLAT",
+    "BADARC",
+    "MANYBADCOLUMNS",
+    "MANYREJECTED",
+    "LARGESHIFT",
+    "BADSKYFIBER",
+    "LOWFLAT",
+    "FULLREJECT",
+    "SCATTEREDLIGHT",
+    "CROSSTALK",
+    "NOSKY",
+    "BRIGHTSKY",
+    "BADFLUXFACTOR",
+    "BADSKYCHI",
+    "REDMONSTER"
+  ],
+  "shared_grid_start": 36451,
+  "shared_grid_end": 38356,
+  "loglam_step": 0.0001,
+  "imputation": "training-column median",
+  "add_missing_indicators": true,
+  "scaled": false,
+  "interpolated": false,
+  "regression_fitted": false
+}

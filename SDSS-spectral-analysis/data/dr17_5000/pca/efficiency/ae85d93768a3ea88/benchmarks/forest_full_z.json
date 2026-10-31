@@ -1,0 +1,15 @@
+{
+  "method": "forest",
+  "case": "full",
+  "target": "z",
+  "input_features": 2717,
+  "training_galaxies": 3359,
+  "validation_galaxies": 720,
+  "fit_seconds": 60.410207899985835,
+  "predict_seconds": 0.09349960001418367,
+  "validation_MAE": 0.04224929628242362,
+  "prediction_repetitions": 3,
+  "n_estimators": 400,
+  "max_features": 0.3,
+  "min_samples_leaf": 1
+}

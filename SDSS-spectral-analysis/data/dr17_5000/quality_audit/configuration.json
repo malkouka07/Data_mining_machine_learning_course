@@ -1,0 +1,28 @@
+{
+  "spectra_checked": 5000,
+  "excluded_AND_flags": [
+    "NOPLUG",
+    "BADTRACE",
+    "BADFLAT",
+    "BADARC",
+    "MANYBADCOLUMNS",
+    "MANYREJECTED",
+    "LARGESHIFT",
+    "BADSKYFIBER",
+    "LOWFLAT",
+    "FULLREJECT",
+    "SCATTEREDLIGHT",
+    "CROSSTALK",
+    "NOSKY",
+    "BRIGHTSKY",
+    "BADFLUXFACTOR",
+    "BADSKYCHI",
+    "REDMONSTER"
+  ],
+  "numerical_exclusions": "nonfinite flux or inverse variance, or inverse variance <= 0",
+  "excluded_bits": 485884159,
+  "shared_grid_start": 36451,
+  "shared_grid_end": 38356,
+  "loglam_step": 0.0001,
+  "counts_before_galaxy_and_column_rejection": true
+}

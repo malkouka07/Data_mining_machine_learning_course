@@ -1,0 +1,3 @@
+coverage,pixels,numerically_invalid,selected_AND_flags,both_reasons,excluded_pixels,excluded_percent,galaxies_checked,galaxies_with_excluded_pixels
+Native coverage,21851844,68761,1712993,39617,1742137,7.972494220625042,5000,4999
+Shared range,9530000,15564,171372,3888,183048,1.9207555089192025,5000,4601

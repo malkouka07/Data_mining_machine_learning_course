@@ -1,0 +1,22 @@
+{
+  "features": [
+    "PC1",
+    "PC2"
+  ],
+  "training_galaxies": 3359,
+  "validation_galaxies": 720,
+  "targets": [
+    "z",
+    "cModelMag_g",
+    "cModelMag_r",
+    "cModelMag_i"
+  ],
+  "sklearn_version": "1.9.1",
+  "PCA_source_sha256": "d6cebe56d2711dd1ea46e5d37d8576ab5f8afe7a7b4505eba01bf7660d4398aa",
+  "forest_settings": "reused earlier best settings; no retuning",
+  "linear_reference": "earlier reported MAEs rounded to six decimal places",
+  "MAE_change_formula": "100 * (PCA_MAE / previous_MAE - 1)",
+  "positive_change": "worse",
+  "negative_change": "better",
+  "test_set_used": false
+}

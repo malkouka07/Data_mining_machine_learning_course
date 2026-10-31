@@ -1,0 +1,12 @@
+{
+  "method": "linear",
+  "case": "full",
+  "target": "cModelMag_g",
+  "input_features": 2717,
+  "training_galaxies": 3359,
+  "validation_galaxies": 720,
+  "fit_seconds": 6.10919330001343,
+  "predict_seconds": 0.014486600004602224,
+  "validation_MAE": 1.5331087352421062,
+  "prediction_repetitions": 3
+}

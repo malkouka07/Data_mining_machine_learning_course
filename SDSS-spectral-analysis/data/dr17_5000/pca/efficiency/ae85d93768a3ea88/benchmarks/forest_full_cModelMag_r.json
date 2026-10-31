@@ -1,0 +1,15 @@
+{
+  "method": "forest",
+  "case": "full",
+  "target": "cModelMag_r",
+  "input_features": 2717,
+  "training_galaxies": 3359,
+  "validation_galaxies": 720,
+  "fit_seconds": 110.88226869999198,
+  "predict_seconds": 0.06249700003536418,
+  "validation_MAE": 0.3142094288194444,
+  "prediction_repetitions": 3,
+  "n_estimators": 200,
+  "max_features": 1.0,
+  "min_samples_leaf": 1
+}

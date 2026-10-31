@@ -1,0 +1,5 @@
+{
+  "wall_seconds": 34.72433340002317,
+  "includes": "search, validation predictions, checkpoints and model saving",
+  "sum_unique_fit_seconds": 7.179639200097881
+}

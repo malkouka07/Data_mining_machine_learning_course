@@ -1,0 +1,14 @@
+{
+  "source_fingerprint": "ae85d93768a3ea8848a61b76d04a0743b648d59008c669fe1414c5ba3fa37a6d",
+  "sklearn_version": "1.9.1",
+  "created_utc": "2026-10-31T13:59:19.850405+00:00",
+  "processor": "Intel64 Family 6 Model 165 Stepping 5, GenuineIntel",
+  "logical_cpus": 12,
+  "forest_workers": 8,
+  "linear_native_threads": 8,
+  "forest_native_threads": 1,
+  "fit_repetitions": 1,
+  "prediction_repetitions": 3,
+  "timing": "wall clock; loading, saving and MAE calculation excluded",
+  "test_set_used": false
+}
