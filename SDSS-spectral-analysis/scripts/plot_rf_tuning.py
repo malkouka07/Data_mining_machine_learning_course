@@ -55,7 +55,7 @@ for filename, parameter, suffix, scale in STAGES:
         ax.grid(axis="y", color="0.88", linewidth=0.5)
         ax.set_axisbelow(True)
         ax.margins(x=0.13, y=0.24)
-        fig.savefig(ROOT / "build" / f"rf_mae_{target}_{suffix}.pdf")
+        fig.savefig(ROOT / "figures" / f"rf_mae_{target}_{suffix}.pdf")
         plt.close(fig)
 
 if count != 40:

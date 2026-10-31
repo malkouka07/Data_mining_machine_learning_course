@@ -6,7 +6,7 @@ Predict SDSS DR17 galaxy redshift and the `g`, `r` and `i` cModel magnitudes
 from optical spectra. The notebook compares linear regression and random forest
 regression with the original prepared inputs and with two principal components.
 
-- [Report (PDF)](build/project1.pdf)
+- [Report (PDF)](project1.pdf)
 - [Report source (LaTeX)](project1.tex)
 - [Executed notebook](project1.ipynb)
 - [SDSS DR17 data source](https://www.sdss4.org/dr17/)
@@ -28,7 +28,8 @@ regression with the original prepared inputs and with two principal components.
   5,000 downloaded spectra.
 - `rf_tuning.py`, `regression_benchmarks.py`: search and timing helpers.
 - `run_rf_tuning.py`, `run_pca_experiments.py`: runners for background execution.
-- `build/`: the report, figures required by LaTeX, and plot/audit scripts.
+- `figures/`: figures required by the LaTeX report and produced by the notebook.
+- `scripts/`: supporting plot and quality-audit scripts.
 
 The prepared data used by the models are included. The original FITS spectra
 occupy approximately 5.4 GiB and are downloaded from SDSS by the notebook rather

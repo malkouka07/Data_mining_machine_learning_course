@@ -35,6 +35,6 @@ with plt.rc_context({"font.size": 11, "axes.titlesize": 11, "xtick.labelsize": 1
         axis.margins(x=0.01, y=0.1)
     fig.supxlabel(r"Observed wavelength [$\mathrm{\AA}$]")
     fig.supylabel(r"Flux [$10^{-17}\,\mathrm{erg}\,\mathrm{s}^{-1}\,\mathrm{cm}^{-2}\,\mathrm{\AA}^{-1}$]")
-    fig.savefig(ROOT / "build/example_galaxy_spectra.png", dpi=250)
+    fig.savefig(ROOT / "figures/example_galaxy_spectra.png", dpi=250)
     plt.close(fig)
 print("Saved native spectra plot for the first five downloaded galaxies.")

@@ -43,7 +43,7 @@ Each \texttt{loglam} value specifies the centre of a spectral pixel in logarithm
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=\textwidth]{build/example_galaxy_spectra.png}
+\includegraphics[width=\textwidth]{figures/example_galaxy_spectra.png}
 \caption{Native spectra of the first five galaxies in the downloaded catalog, before quality filtering or imputation. Each panel shows flux against observed wavelength and uses its own vertical scale.}
 \label{fig:example-galaxy-spectra}
 \end{figure}
@@ -134,7 +134,7 @@ I discarded 201 of the 5,000 galaxies (4.02\%) because they had 10\% or more pix
 Figure~\ref{fig:prepared-targets} shows the target values for the prepared spectra.
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=\textwidth]{build/prepared_target_distributions.png}
+\includegraphics[width=\textwidth]{figures/prepared_target_distributions.png}
 \caption{Target values for the prepared spectra of the 4,799 retained galaxies.}
 \label{fig:prepared-targets}
 \end{figure}
@@ -214,21 +214,21 @@ I chose 400 trees and 30\% of the features for redshift, 200 trees and 30\% for 
 Target & Number of trees & Features (\%) & Minimum leaf size \\
 \midrule
 Redshift &
-\includegraphics[width=0.285\textwidth]{build/rf_mae_z_trees.pdf} &
-\includegraphics[width=0.285\textwidth]{build/rf_mae_z_features.pdf} &
-\includegraphics[width=0.285\textwidth]{build/rf_mae_z_leaves.pdf} \\
+\includegraphics[width=0.285\textwidth]{figures/rf_mae_z_trees.pdf} &
+\includegraphics[width=0.285\textwidth]{figures/rf_mae_z_features.pdf} &
+\includegraphics[width=0.285\textwidth]{figures/rf_mae_z_leaves.pdf} \\
 $g$ band &
-\includegraphics[width=0.285\textwidth]{build/rf_mae_cModelMag_g_trees.pdf} &
-\includegraphics[width=0.285\textwidth]{build/rf_mae_cModelMag_g_features.pdf} &
-\includegraphics[width=0.285\textwidth]{build/rf_mae_cModelMag_g_leaves.pdf} \\
+\includegraphics[width=0.285\textwidth]{figures/rf_mae_cModelMag_g_trees.pdf} &
+\includegraphics[width=0.285\textwidth]{figures/rf_mae_cModelMag_g_features.pdf} &
+\includegraphics[width=0.285\textwidth]{figures/rf_mae_cModelMag_g_leaves.pdf} \\
 $r$ band &
-\includegraphics[width=0.285\textwidth]{build/rf_mae_cModelMag_r_trees.pdf} &
-\includegraphics[width=0.285\textwidth]{build/rf_mae_cModelMag_r_features.pdf} &
-\includegraphics[width=0.285\textwidth]{build/rf_mae_cModelMag_r_leaves.pdf} \\
+\includegraphics[width=0.285\textwidth]{figures/rf_mae_cModelMag_r_trees.pdf} &
+\includegraphics[width=0.285\textwidth]{figures/rf_mae_cModelMag_r_features.pdf} &
+\includegraphics[width=0.285\textwidth]{figures/rf_mae_cModelMag_r_leaves.pdf} \\
 $i$ band &
-\includegraphics[width=0.285\textwidth]{build/rf_mae_cModelMag_i_trees.pdf} &
-\includegraphics[width=0.285\textwidth]{build/rf_mae_cModelMag_i_features.pdf} &
-\includegraphics[width=0.285\textwidth]{build/rf_mae_cModelMag_i_leaves.pdf} \\
+\includegraphics[width=0.285\textwidth]{figures/rf_mae_cModelMag_i_trees.pdf} &
+\includegraphics[width=0.285\textwidth]{figures/rf_mae_cModelMag_i_features.pdf} &
+\includegraphics[width=0.285\textwidth]{figures/rf_mae_cModelMag_i_leaves.pdf} \\
 \bottomrule
 \end{tabular}
 \endgroup
@@ -266,7 +266,7 @@ I can capture the variance in the data with principal component analysis (PCA). 
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=\textwidth]{build/pca_galaxy_projection.png}
+\includegraphics[width=\textwidth]{figures/pca_galaxy_projection.png}
 \caption{Coordinates of the 3,359 training and 720 validation galaxies along the first two principal components. PCA was fitted using the training galaxies only. The left panel shows the full range; the right panel zooms to the 1st--99th percentile range of each coordinate.}
 \label{fig:pca-galaxies}
 \end{figure}
